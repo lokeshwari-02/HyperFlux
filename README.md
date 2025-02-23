@@ -1,11 +1,25 @@
-<<<<<<< HEAD
-Modern web applications rely heavily on APIs for data exchange, but testing and debugging these APIs can be challenging without proper mocking and logging mechanisms. **HyperFlux** addresses this issue by providing an efficient API mocking and logging solution, allowing developers to simulate API responses without relying on a live backend. This enables seamless frontend development, debugging, and performance analysis while ensuring real-time logging of API requests and responses. By integrating robust logging and monitoring, HyperFlux enhances the development workflow, reducing dependency on external servers and improving overall application stability.
-=======
-<h1 align="center">
+HyperFlux - API Request Logging & Analysis System  
 
-		Hyperflux
-	
-</h1
+HyperFlux is an API request logging tool that helps developers track, analyze, and debug API interactions. It logs API requests and responses, stores them in JSON/CSV formats, and allows users to revisit request history for efficient debugging.  
 
+🚀 Features  
 
->>>>>>> 94b8005 (Added project files)
+✅ Send API Requests (GET, POST, etc.)  
+✅ Log Requests & Responses with metadata  
+✅ Store & Export Logs in JSON/CSV format  
+✅ Request History Management 
+✅ User-Friendly UI for managing requests  
+
+🛠Tech Stack  
+
+- Frontend: React.js, Vite, Framer Motion, Lucide-React  
+- Backend: Axios for API requests  
+- Storage: LocalStorage (for history), JSON & CSV file export  
+
+🔄 How to Use?  
+
+1️⃣ Enter API Endpoint & Select Method  
+2️⃣ Add Query Parameters, Headers & Body (if needed)
+3️⃣ Send Request & View Response  
+4️⃣ Logs are Stored Automatically  
+5️⃣ Download Logs as JSON or CSV
